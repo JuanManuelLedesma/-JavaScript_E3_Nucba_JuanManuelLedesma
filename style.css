@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Lobster;
+  src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+}
+
+body {
+  background: #78babd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: Lobster;
+}
+
+h4 {
+  font-size: 1.7rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: Lobster;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: Lobster;
+}
+
+
+
+.add-btn {
+  background: linear-gradient(45deg, #ff8d0c, #ff1153);
+  outline: none;
+  border: 0px solid;
+  padding: 10px 100px;
+  border-radius: 8px;
+  color: rgb(226, 226, 226);
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.input-text {
+  display: flex;
+  background-color: #3b3b3b;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 8px 8px 8px 8px;
+  width: 250px;
+  color: white;
+  padding-left: 5px;
+}
+
+
+.form__field.error input {
+    border: 1px solid #dc3545;
+  }
+  
+  .form__field small {
+    color: #dc3545;
+    max-width: 350px;
+    text-align: center;
+    padding: 7px 7px;
+    font-size: 1em;
+
+  }
+  
+  .form__field.success input {
+    border: 1px solid #28a745;
+  }
+
+  .form__field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    border-radius: 100px;
+    background: rgb(247, 146, 31);
+    width: 30%;
+    box-shadow: -2px 1px 11px -2px rgba(0,0,0,0.75);
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 10% 5% 10% 5%;
+  }
